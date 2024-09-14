@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  /* border: 1px red solid; */
+} /* Custom styles to change tab titles */
+
+.nav-link {
+  color: black !important; /* Change the color to black (or any desired color) */
+  text-decoration: none !important; /* Removes any underline */
+}
+
+/* Optional: Hover effect for the active tab */
+.nav-link:hover {
+  color: #ff6347 !important; /* Example hover color */
+}
+
+/* Style for the active tab */
+.nav-link.active {
+  color: #000000 !important; /* Example color for active tab */
+}
